@@ -17,7 +17,21 @@
                BlueprintIdentifier = "BC6D426428C1E53700541D61"
                BuildableName = "LinkWithXCTAutomationSupport.app"
                BlueprintName = "LinkWithXCTAutomationSupport"
-               ReferencedContainer = "container:LinkWIthXCTAutomationSupport.xcodeproj">
+               ReferencedContainer = "container:LinkWithXCTAutomationSupport.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F80F8C112ACDED3C0082F5DE"
+               BuildableName = "CopyXCTAutomationSupportBuildSystemPlease.xctest"
+               BlueprintName = "CopyXCTAutomationSupportBuildSystemPlease"
+               ReferencedContainer = "container:LinkWithXCTAutomationSupport.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,6 +42,17 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F80F8C112ACDED3C0082F5DE"
+               BuildableName = "CopyXCTAutomationSupportBuildSystemPlease.xctest"
+               BlueprintName = "CopyXCTAutomationSupportBuildSystemPlease"
+               ReferencedContainer = "container:LinkWithXCTAutomationSupport.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -47,7 +72,7 @@
             BlueprintIdentifier = "BC6D426428C1E53700541D61"
             BuildableName = "LinkWithXCTAutomationSupport.app"
             BlueprintName = "LinkWithXCTAutomationSupport"
-            ReferencedContainer = "container:LinkWIthXCTAutomationSupport.xcodeproj">
+            ReferencedContainer = "container:LinkWithXCTAutomationSupport.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -71,7 +96,7 @@
             BlueprintIdentifier = "BC6D426428C1E53700541D61"
             BuildableName = "LinkWithXCTAutomationSupport.app"
             BlueprintName = "LinkWithXCTAutomationSupport"
-            ReferencedContainer = "container:LinkWIthXCTAutomationSupport.xcodeproj">
+            ReferencedContainer = "container:LinkWithXCTAutomationSupport.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

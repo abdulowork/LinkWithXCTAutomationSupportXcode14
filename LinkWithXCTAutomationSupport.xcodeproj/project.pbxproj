@@ -16,6 +16,8 @@
 		BC6D429E28C1E7E500541D61 /* XCTAutomationSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = BC6D428D28C1E6F200541D61 /* XCTAutomationSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC6D42A428C1E84100541D61 /* IDETestingFoundationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6D428128C1E68C00541D61 /* IDETestingFoundationTests.framework */; };
 		BCFA151D28C87F3B00AA066E /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFA151C28C87F3B00AA066E /* Stub.swift */; };
+		F80F8C152ACDED3C0082F5DE /* CopyXCTAutomationSupportBuildSystemPlease.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80F8C142ACDED3C0082F5DE /* CopyXCTAutomationSupportBuildSystemPlease.swift */; };
+		F80F8C172ACDED3C0082F5DE /* CopyXCTAutomationSupportBuildSystemPleaseLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80F8C162ACDED3C0082F5DE /* CopyXCTAutomationSupportBuildSystemPleaseLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = BC6D428028C1E68C00541D61;
 			remoteInfo = ReexportXCTAutomationSupport;
+		};
+		F80F8C272ACDF1FA0082F5DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC6D425D28C1E53700541D61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F80F8C112ACDED3C0082F5DE;
+			remoteInfo = CopyXCTAutomationSupportBuildSystemPlease;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -67,6 +76,9 @@
 		BC6D429328C1E7AE00541D61 /* ExportXCTAutomationSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExportXCTAutomationSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFA151B28C87EB900AA066E /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = SOURCE_ROOT; };
 		BCFA151C28C87F3B00AA066E /* Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
+		F80F8C122ACDED3C0082F5DE /* CopyXCTAutomationSupportBuildSystemPlease.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopyXCTAutomationSupportBuildSystemPlease.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80F8C142ACDED3C0082F5DE /* CopyXCTAutomationSupportBuildSystemPlease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyXCTAutomationSupportBuildSystemPlease.swift; sourceTree = "<group>"; };
+		F80F8C162ACDED3C0082F5DE /* CopyXCTAutomationSupportBuildSystemPleaseLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyXCTAutomationSupportBuildSystemPleaseLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +106,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F80F8C0F2ACDED3C0082F5DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -103,6 +122,7 @@
 				BC6D426728C1E53700541D61 /* LinkWithXCTAutomationSupport */,
 				BC6D428228C1E68D00541D61 /* IDETestingFoundationTests */,
 				BC6D429428C1E7AE00541D61 /* ExportXCTAutomationSupport */,
+				F80F8C132ACDED3C0082F5DE /* CopyXCTAutomationSupportBuildSystemPlease */,
 				BC6D426628C1E53700541D61 /* Products */,
 				BC6D42A328C1E84100541D61 /* Frameworks */,
 			);
@@ -114,6 +134,7 @@
 				BC6D426528C1E53700541D61 /* LinkWithXCTAutomationSupport.app */,
 				BC6D428128C1E68C00541D61 /* IDETestingFoundationTests.framework */,
 				BC6D429328C1E7AE00541D61 /* ExportXCTAutomationSupport.framework */,
+				F80F8C122ACDED3C0082F5DE /* CopyXCTAutomationSupportBuildSystemPlease.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +173,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F80F8C132ACDED3C0082F5DE /* CopyXCTAutomationSupportBuildSystemPlease */ = {
+			isa = PBXGroup;
+			children = (
+				F80F8C142ACDED3C0082F5DE /* CopyXCTAutomationSupportBuildSystemPlease.swift */,
+				F80F8C162ACDED3C0082F5DE /* CopyXCTAutomationSupportBuildSystemPleaseLaunchTests.swift */,
+			);
+			path = CopyXCTAutomationSupportBuildSystemPlease;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -181,10 +211,12 @@
 				BC6D426228C1E53700541D61 /* Frameworks */,
 				BC6D426328C1E53700541D61 /* Resources */,
 				BC6D428C28C1E68D00541D61 /* Embed Frameworks */,
+				F80F8C262ACDF1B40082F5DE /* Run Script */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F80F8C282ACDF1FA0082F5DE /* PBXTargetDependency */,
 				BC6D428628C1E68D00541D61 /* PBXTargetDependency */,
 				BC6D429828C1E7AE00541D61 /* PBXTargetDependency */,
 			);
@@ -230,6 +262,23 @@
 			productReference = BC6D429328C1E7AE00541D61 /* ExportXCTAutomationSupport.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		F80F8C112ACDED3C0082F5DE /* CopyXCTAutomationSupportBuildSystemPlease */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80F8C1A2ACDED3C0082F5DE /* Build configuration list for PBXNativeTarget "CopyXCTAutomationSupportBuildSystemPlease" */;
+			buildPhases = (
+				F80F8C0E2ACDED3C0082F5DE /* Sources */,
+				F80F8C0F2ACDED3C0082F5DE /* Frameworks */,
+				F80F8C102ACDED3C0082F5DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CopyXCTAutomationSupportBuildSystemPlease;
+			productName = CopyXCTAutomationSupportBuildSystemPlease;
+			productReference = F80F8C122ACDED3C0082F5DE /* CopyXCTAutomationSupportBuildSystemPlease.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -237,7 +286,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1400;
+				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					BC6D426428C1E53700541D61 = {
@@ -250,6 +299,10 @@
 					BC6D429228C1E7AE00541D61 = {
 						CreatedOnToolsVersion = 14.0;
 						LastSwiftMigration = 1400;
+					};
+					F80F8C112ACDED3C0082F5DE = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = BC6D426428C1E53700541D61;
 					};
 				};
 			};
@@ -269,6 +322,7 @@
 				BC6D426428C1E53700541D61 /* LinkWithXCTAutomationSupport */,
 				BC6D428028C1E68C00541D61 /* IDETestingFoundationTests */,
 				BC6D429228C1E7AE00541D61 /* ExportXCTAutomationSupport */,
+				F80F8C112ACDED3C0082F5DE /* CopyXCTAutomationSupportBuildSystemPlease */,
 			);
 		};
 /* End PBXProject section */
@@ -296,7 +350,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F80F8C102ACDED3C0082F5DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F80F8C262ACDF1B40082F5DE /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -r \"${BUILT_PRODUCTS_DIR}\"/CopyXCTAutomationSupportBuildSystemPlease-Runner.app/Frameworks/* \"${BUILT_PRODUCTS_DIR}\"/LinkWithXCTAutomationSupport.app/Frameworks/\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BC6D426128C1E53700541D61 /* Sources */ = {
@@ -322,6 +404,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F80F8C0E2ACDED3C0082F5DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80F8C172ACDED3C0082F5DE /* CopyXCTAutomationSupportBuildSystemPleaseLaunchTests.swift in Sources */,
+				F80F8C152ACDED3C0082F5DE /* CopyXCTAutomationSupportBuildSystemPlease.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -339,6 +430,11 @@
 			isa = PBXTargetDependency;
 			target = BC6D428028C1E68C00541D61 /* IDETestingFoundationTests */;
 			targetProxy = BC6D42A128C1E83D00541D61 /* PBXContainerItemProxy */;
+		};
+		F80F8C282ACDF1FA0082F5DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F80F8C112ACDED3C0082F5DE /* CopyXCTAutomationSupportBuildSystemPlease */;
+			targetProxy = F80F8C272ACDF1FA0082F5DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -658,6 +754,53 @@
 			};
 			name = Release;
 		};
+		F80F8C1B2ACDED3C0082F5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZX66R2GRV;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = foo.bar.TestXCTAutomationSupport.CopyXCTAutomationSupportBuildSystemPlease;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinkWithXCTAutomationSupport;
+			};
+			name = Debug;
+		};
+		F80F8C1C2ACDED3C0082F5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZX66R2GRV;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = foo.bar.TestXCTAutomationSupport.CopyXCTAutomationSupportBuildSystemPlease;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinkWithXCTAutomationSupport;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -693,6 +836,15 @@
 			buildConfigurations = (
 				BC6D429C28C1E7AF00541D61 /* Debug */,
 				BC6D429D28C1E7AF00541D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80F8C1A2ACDED3C0082F5DE /* Build configuration list for PBXNativeTarget "CopyXCTAutomationSupportBuildSystemPlease" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80F8C1B2ACDED3C0082F5DE /* Debug */,
+				F80F8C1C2ACDED3C0082F5DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
