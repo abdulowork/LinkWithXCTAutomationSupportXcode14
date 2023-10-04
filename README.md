@@ -6,4 +6,8 @@ ld: cannot link directly with dylib/framework, your binary is not an allowed cli
 
 The allowlist is specified with the `LC_SUB_CLIENT` load command. You can see who is allowed to link using: `otool -l XCTAutomationSupport | grep -A 2 LC_SUB_CLIENT`.
 
-This example illustrates how you can bypass the linker restriction by reexporting `XCTAutomationSupport` through a fake library with the name from the allowlist.
+This example illustrates how you can use and link `XCElementSnapshot` API which is private to `XCTAutomationSupport`.
+
+The idea is to reexport `XCTAutomationSupport` through a fake library (`IDETestingFoundationTests`) with the name from the allowlist by using the `-reexport_framework XCTAutomationSupport` linker setting. 
+
+To run select the `LinkWIthXCTAutomationSupport` scheme. 
